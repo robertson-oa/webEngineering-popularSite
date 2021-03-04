@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile-section{
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+}
+
+#profile-image{
+    position: absolute;
+    max-width: 40px;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-top: 20px;
+    top: -15px;
+    left: 20px;
+}
+#menu{
+    position: absolute;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;   
+    display: inline-block;
+    margin-left: 300px;
+    top: 15px;
+    left: 50px;
+}
+
+    #message-icon{
+        position: absolute;
+        cursor: pointer;
+        width: 15px;
+        height: 15px;   
+        display: inline-block;
+        margin-left: 300px;
+        top: 15px;
+        left: 10px;
+    }
+    #stats{
+        position: absolute;
+        cursor: pointer;
+        width: 15px;
+        height: 15px;   
+        display: inline-block;
+        margin-left: 240px;
+        top: 15px;
+        left: 25px;
+    }
+
+button{
+    width: 400px;
+    text-align: left;
+    justify-content: center;
+    border-radius: 20px;
+    padding-bottom: 0.5px;
+    padding-top: 0.5px;
+    border: none;
+    position: absolute;
+    top:50px;
+    background-color: white;
+   }
+
+   #search{
+    width: 15px;
+    height: 15px;
+   text-align: left;
+   margin-left: 10px;
+}
+
+   #search-text{
+       display: inline-block;
+       text-align: center;
+       margin-left: 50px;
+       color: rgb(136, 126, 126);
+   }
+   
+.rectangle{
+    width: 400px;
+    margin-left: 0px;  
+}
+ .message{
+     margin-bottom: 10px;
+     background: whitesmoke;
+     padding: 10px;
+     position: relative;
+ }   
+
+ .fas{color: rgb(64, 109, 201);
+    
+ }
+
+    .time{
+        margin-left: 8px;
+    }
+
+/* ---------------Right Grid------------------- */
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    border: 0px;
+    margin: 0px;
+
+}
+
+.right-background{
+    position:relative;
+    background-color:whitesmoke;
+    text-align: center;
+    
+}
+
+.right-image {
+    display:inline-block;
+    position: relative;
+    border-radius: 50%;
+    margin-top: 200px;
+}
+
+.right-background .bigger-text{
+    display: inline-block;
+    font-size: 50px;
+    color: rgb(179, 179, 179);
+    margin: 0px;
+
+}
+
+.right-background .smaller-text{
+    font-size: 20px;
+    color: rgb(212, 212, 212);
+    margin-top: 10px;
+}
+
+.right-background hr{
+    width: 65%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.subscription .link{
+    position: relative;
+    color: rgb(89, 233, 233);
+    font-weight: bold;
+    bottom:10px;
+
+}
+.subscription .link:hover{
+cursor: pointer;
+}
+.subscription span img{
+    width: 30px;
+    height: 30px;
+}
+
+.subscription .text{
+    position:relative;
+    bottom: 10px;
+}
+
+/*-------------------- message ----------------- */
+.message-container{
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.message-container hr{
+    width: 80%;
+    margin-right: 10%;
+    color:rgb(200, 238, 300)
+
+}
+.profile-image{
+    border: 2px solid whitesmoke;
+    display: inline-block;
+    max-width: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.message-name{
+    display: inline-block;
+    position:absolute;
+    font-weight: bold;
+    bottom: 32px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.message{
+    display: inline-block;
+    font-size: 15px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    bottom: 12px;
+    
+}
+
+.time{
+    display: inline-block;
+    position:absolute;
+    padding: 0px;
+    margin: 0px;
+    bottom: 32px;
+    right: 8px;
+    font-size: 12px;
+}
+
+
+
+/* --------------Responsiveness---------------- */
+
+@media only screen and (max-width: 600px) {
+    .grid {
+     padding: 0px;
+        }
+    }
+
+    @media only screen and (min-width: 600px) {
+        .grid {
+         padding: 0px;
+        }
+      }
+        
+      @media only screen and (min-width: 768px) {
+        .grid {
+         padding: 0px;
+        }
+      }
+
+        @media only screen and (min-width: 992px) {
+            .grid {
+             padding: 0px;
+          }
+        }
+
